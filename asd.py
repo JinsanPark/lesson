@@ -10,8 +10,8 @@ def mulit(n1,n2) :
     retVal = n1 * n2
     return retVal
 
-def mulit(n1,n2) :
-    retVal = n1 * n2
+def div(n1,n2) :
+    retVal = n1 / n2
     return retVal
 
 n1, n2, res = 100, 200, 0
@@ -27,3 +27,7 @@ print(n1,'-',n2,'=',res)
 res = mulit(n1,n2)
 
 print(n1,'*',n2,'=',res)
+
+res = div(n1,n2)
+
+print(n1,'/',n2,'=',res)
