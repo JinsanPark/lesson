@@ -1,0 +1,9 @@
+def add_func(n1,n2) :
+    retVal = n1 + n2
+    return retVal
+
+num1, num2, res = 100, 200, 0
+
+res = add_func
+
+print(num1,'+',num2,'=',res)
